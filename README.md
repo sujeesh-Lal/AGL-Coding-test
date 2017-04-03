@@ -89,13 +89,8 @@ npm run test
 Output
 -------------
 
-The project is configured with unit tests written in **Mocha** using **Chai** assertions and **ChaiSpies** spies.
+![Alt text](https://github.com/sujeesh-Lal/AGL-Coding-test/blob/master/assets/output.jpg)
 
-The easiest way to run the unit tests is:
-
-```
-npm run test
-```
 
 ## Author
 
