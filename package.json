@@ -1,0 +1,41 @@
+{
+  "name": "AGL-CODING-TEST",
+  "version": "1.0.0",
+  "description": "Consume an API and output a list of all the cats in alphabetical order under a heading of the gender of their owner.",
+  "scripts": {
+    "build": "npm run lint && npm run clean && npm run tsc --",
+    "clean": "rimraf dist/",
+    "lint": "tslint src/**/*.ts",
+    "start": "webpack-dev-server --open",
+    "test": "npm run tsc -- **/*.spec.ts && ./node_modules/mocha/bin/_mocha -- **/*.spec.js",
+    "tsc": "node_modules/typescript/bin/tsc",
+    "tslint": "node_modules/tslint/bin/tslint"
+  },
+  "dependencies": {
+    "@types/chai-as-promised": "0.0.30",
+    "@types/chai-spies": "0.0.0",
+    "@types/es6-shim": "^0.31.32",
+    "@types/node": "^6.0.68",
+    "chai-as-promised": "^6.0.0",
+    "es6-promise": "^4.0.5",
+    "node-fetch": "^1.6.3",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.35",
+    "@types/node": "^6.0.48",
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "concurrently": "^3.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.5.4",
+    "tslint": "^3.15.1",
+    "typescript": "2.0.6"
+  },
+  "author": "Sujeesh Lal",
+  "license": "MIT"
+}

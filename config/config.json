@@ -1,0 +1,6 @@
+{
+  "baseUrl": "http://agl-developer-test.azurewebsites.net",
+  "api": {
+    "people": "/people.json"
+  }
+}
