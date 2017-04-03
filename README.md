@@ -38,7 +38,7 @@ npm start
 
 This will open the url http://localhost:8000 in browser 
 
-NOTE:  Please make sure the url is open in the browser web security disable (Cross domain request).
+**NOTE:**  Please make sure the url is open in the browser with web security disable. Since the API request is Cross domain request.
 
 ----------
 
